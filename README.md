@@ -13,5 +13,5 @@ A security auditing tool to analyze PHP projects and detect vulnerabilities from
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/php-security-auditor.git
+   git clone https://github.com/Bigoolll/php-security-auditor.git
    cd php-security-auditor
