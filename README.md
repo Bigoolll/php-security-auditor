@@ -1,13 +1,13 @@
 # PHP Security Auditor
 
-A security auditing tool to analyze PHP projects and detect vulnerabilities from the OWASP Top 10 list.
+A simple security auditing tool to analyze PHP projects and detect vulnerabilities from the OWASP Top 10 list.
 
 ## Features
 
-- Detects SQL Injection vulnerabilities
-- Identifies Cross-Site Scripting (XSS) risks
-- Flags Cryptographic Failures (missing encryption)
-- Generates comprehensive HTML reports
+- Detects simple SQL Injection vulnerabilities
+- Identifies simple Cross-Site Scripting (XSS) risks
+- Flags simple Cryptographic Failures (missing encryption)
+- Generates simple HTML reports
 
 ## Installation
 
