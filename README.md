@@ -4,7 +4,7 @@ A CLI tool to detect vulnerabilities in PHP code (SQLi, XSS, Cryptographic Failu
 
 ## Installation
 ```bash
-git clone [your-repo]
+git clone https://github.com/Bigoolll/php-security-auditor/
 cd [your-repo]
 ```
 
