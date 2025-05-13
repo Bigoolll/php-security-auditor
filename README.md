@@ -1,17 +1,30 @@
-# PHP Security Auditor
+# PHP Security Scanner
 
-A simple security auditing tool to analyze PHP projects and detect vulnerabilities from the OWASP Top 10 list.
+A CLI tool to detect vulnerabilities in PHP code (SQLi, XSS, Cryptographic Failures)
+
+## Installation
+```bash
+git clone [your-repo]
+cd [your-repo]
+```
+
+## Usage
+``` bash
+php run.php path/to/file.php
+php run.php path/to/directory/
+```
 
 ## Features
 
-- Detects simple SQL Injection vulnerabilities
-- Identifies simple Cross-Site Scripting (XSS) risks
-- Flags simple Cryptographic Failures (missing encryption)
-- Generates simple HTML reports
+- Detects SQL Injection vulnerabilities
+    
+- Identifies XSS risks
+    
+- Flags weak cryptographic practices
+    
 
-## Installation
+## Example Output
+![WhatsApp Image 2025-05-12 at 9 49 34 PM](https://github.com/user-attachments/assets/5b04c46c-d0db-4e31-b65d-34b827c7e3eb)
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Bigoolll/php-security-auditor.git
-   cd php-security-auditor
+## Requirements
+- PHP 7.4+
